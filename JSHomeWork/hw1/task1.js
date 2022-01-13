@@ -1,1 +1,2 @@
-console.log("qww")
+var result;
+result = a + b < 4 ? true : false;
