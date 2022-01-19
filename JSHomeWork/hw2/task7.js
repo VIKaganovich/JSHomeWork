@@ -9,11 +9,12 @@ function getDivisors(x) {
 
     let result = [];
 
-    for (let i = 1; i <= x; i++) {
+    for (let i = 1; i <= x / 2; i++) {
         if (x % i === 0) {
             result.push(i);
         }
     }
+    result.push(x);
 
     return result;
 }
