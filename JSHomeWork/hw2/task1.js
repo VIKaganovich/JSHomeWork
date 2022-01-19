@@ -1,4 +1,4 @@
-function cubing(x) {
+function f(x) {
     if (typeof x === 'number') {
         return x * x * x;
     } else {
@@ -6,5 +6,5 @@ function cubing(x) {
     }
 }
 
-console.log(cubing(2));
-console.log(cubing('Content'));
+console.log(f(2));
+console.log(f('Content'));
