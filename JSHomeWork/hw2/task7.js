@@ -7,9 +7,9 @@ function getDivisors(x) {
         throw new Error('parameter can\'t be a 0');
     }
 
-    let result = [];
+    let result = [1];
 
-    for (let i = 1; i <= x / 2; i++) {
+    for (let i = 2; i <= x / 2; i++) {
         if (x % i === 0) {
             result.push(i);
         }
