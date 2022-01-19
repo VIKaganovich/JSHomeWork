@@ -9,6 +9,10 @@ function getDivisors(x) {
 
     let result = [1];
 
+    if (x === 1) {
+        return result;
+    }
+
     for (let i = 2; i <= x / 2; i++) {
         if (x % i === 0) {
             result.push(i);
@@ -19,6 +23,6 @@ function getDivisors(x) {
     return result;
 }
 
-console.log(getDivisors(12));
+console.log(getDivisors(1));
 //console.log(getDivisors('Content'));
 console.log(getDivisors(0));
