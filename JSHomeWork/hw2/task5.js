@@ -1,6 +1,6 @@
 function isPositvie(x) {
     if (typeof x === 'number') {
-        return x > 0 ? true : false;
+        return x > 0;
     } else {
         throw new Error('parameter type is not a Number');
     }
