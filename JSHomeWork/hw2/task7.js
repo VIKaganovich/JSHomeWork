@@ -23,6 +23,6 @@ function getDivisors(x) {
     return result;
 }
 
-console.log(getDivisors(1));
+console.log(getDivisors(12));
 //console.log(getDivisors('Content'));
 console.log(getDivisors(0));
